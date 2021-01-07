@@ -103,6 +103,9 @@ main {
 .colors {
     color:#16223c;
 }
+.colors2 {
+    color:#16223c;
+}
 .text-justify-normal {
     text-align: justify !important;
 }
@@ -115,7 +118,18 @@ main {
 .flexbox {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    justify-content: space-around;
+}
+.avatar {
+    width: 30%;
+    height: auto;
+}
+.avatar-text {
+    padding-top: 80px;
+    color: #424242;
+}
+.avatar-description {
+    font-size: 20px;
 }
 .footer {
     background-image: url(footer.png);
