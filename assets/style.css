@@ -14,7 +14,6 @@ main {
 #resumo {
     color: #5e5e5e;                 
     font-size: 20px;
-    font-family: museomoderno;
     padding-bottom: 70px;
 
 }
@@ -22,6 +21,14 @@ main {
     color:#0086be;
     margin-top: 130px;
     font-size:40px;
+    padding-bottom: 50px;
+}
+#professores::after {
+    content: '';
+    width: 300px;
+    height: 3px;
+    background-color: currentColor;
+    display: block;
 }
 #sub {
     background-color: #0086be;
@@ -71,8 +78,9 @@ main {
     color: white;
     background-color:#16223c;
 }
-#list div + div {
+#list div {
     margin-top: 10px;
+    font-size: 20px;
 }  
 .img-with-text {
     text-align: justify;
@@ -131,7 +139,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
- 
+}
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .avatar {
     width: 28%;
@@ -145,6 +158,33 @@ main {
     font-size: 20px;
     color: #424242;
     text-align: justify;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Questrial;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.butao{
+    border: 0;
+    width:85px;
+    color: white;
+    background-color:#0086be;
+    transition: 0.3s;
+}
+.butao:hover{
+    background: #079ddb;
+    transition: 0.3s;
 }
 .footer {
     background-image: url(footer.png);
