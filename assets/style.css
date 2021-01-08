@@ -292,8 +292,7 @@ main {
         margin: 5%;
     }
     #professores::after {
-        content: '';
-        width: 440px;
+        width: 3px;
         height: 3px;
         background-color: currentColor;
         display: block;
