@@ -15,6 +15,7 @@ main {
     color: #5e5e5e;                 
     font-size: 20px;
     font-family: museomoderno;
+    padding-bottom: 70px;
 
 }
 #professores {
@@ -45,12 +46,12 @@ main {
     color:#0086be;
     padding-bottom: 8px;
 }
-#pagamento {
+#payment {
     color:#565656;
     font-family: Questrial;
     font-size: 20px;
 }
-#price {
+#paymentforms {
     color:#525252;
 }
 #ltd {
@@ -64,6 +65,11 @@ main {
     color:#5e5e5e;
     text-align: center;
     margin-bottom: 50px;
+    transition: 0,3s;
+}
+#ltd:hover {
+    color: white;
+    background-color:#16223c;
 }
 #list div + div {
     margin-top: 10px;
@@ -104,7 +110,13 @@ main {
     color:#16223c;
 }
 .colors2 {
-    color:#16223c;
+    color:#079ddb;
+    font-size: 35px;
+}
+.colors3 {
+    color:#5e5e5e;
+    font-size: 25px;
+    padding-top: 30px;
 }
 .text-justify-normal {
     text-align: justify !important;
@@ -118,11 +130,12 @@ main {
 .flexbox {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+ 
 }
 .avatar {
-    width: 30%;
-    height: auto;
+    width: 28%;
+    height: 100%;
 }
 .avatar-text {
     padding-top: 80px;
@@ -130,6 +143,8 @@ main {
 }
 .avatar-description {
     font-size: 20px;
+    color: #424242;
+    text-align: justify;
 }
 .footer {
     background-image: url(footer.png);
@@ -174,24 +189,38 @@ main {
     .text-mobile {
         display: inline;
     }
-    .img-with-text{
+    .img-with-text {
        width: 89%;
        height: 90%;
        padding-top: 5px;
     }
-    .curso{
+    .curso {
        padding-left: 6%;
     }
-    .caixa{
+    .caixa {
         margin:5%;
     }
-    .pagamento{
+    .pagamento {
         width: 60%;
     }
-    .flexbox{
+    .flexbox {
         display: flex;
         flex-direction: column;
         align-content: space-between;
+    }
+    .avatar {
+        margin-left: 33%;
+        width: 40%;
+        height: auto;
+        justify-content: space-around;
+    }
+    .avatar-text {
+        margin: 30px;
+        justify-content: unset;
+    }
+    .avatar-description {
+        margin: 30px;
+        justify-content: unset;
     }
 }
 
