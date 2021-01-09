@@ -311,7 +311,25 @@ main {
         text-align: center;
         margin: 5%;
     }
+    #sub {
+        background-color: #0086be;
+        border: none;
+        color: white;
+        padding: 12px 54px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 18px;
+        font-weight: 900;
+        display: block;
+        width: 80%;
+        transition: 0.3s;
+    }
 }
+
+
 
 
 
