@@ -17,6 +17,9 @@ main {
     padding-bottom: 70px;
 
 }
+#bannermobile {
+    display: none;
+}
 #professores {
     color:#0086be;
     margin-top: 130px;
@@ -249,10 +252,11 @@ main {
         align-content: space-between;
     }
     .avatar {
-        margin-left: 33%;
-        width: 40%;
+        display: block;
+        margin: 0 auto;
+        width: 55%;
         height: auto;
-        justify-content: space-around;
+        padding-top: 30px;
     }
     .avatar-text {
         margin: 30px;
@@ -326,6 +330,12 @@ main {
         display: block;
         width: 80%;
         transition: 0.3s;
+    }
+    #banner {
+        display: none;
+    }
+    #bannermobile {
+        display: block;
     }
 }
 
