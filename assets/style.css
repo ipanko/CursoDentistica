@@ -15,7 +15,8 @@ main {
     color: #5e5e5e;                 
     font-size: 20px;
     padding-bottom: 70px;
-
+    text-align:justify;
+word-spacing:-2px;
 }
 #bannermobile {
     display: none;
@@ -136,9 +137,6 @@ main {
 .text-justify-normal {
     text-align: justify !important;
 }
-.margin-top {
-    margin-top: 55px;
-}
 .text-mobile {
     display: none;
 }
@@ -204,6 +202,9 @@ main {
     text-align: center;
     display: none;
 }
+.size {
+    font-size:18px;
+}
 .footer {
     background-image: url(footer.png);
     background-repeat: no-repeat;
@@ -211,6 +212,7 @@ main {
     height: 100%;
     padding: 100px 0 100px 0;
 }
+
 
 /*Mobile Version*/
 @media (max-width: 768px) {
@@ -263,8 +265,11 @@ main {
         justify-content: unset;
     }
     .avatar-description {
+        font-size: 18px;
         margin: 30px;
         justify-content: unset;
+        text-align:justify;
+        word-spacing:-2px;
     }
     .boxwithtext {
         display: none;
@@ -272,10 +277,11 @@ main {
     .mobilebox {
         font-style: oblique;
         font-size: 20px;
-        margin: 5%;
+        margin: 10%;
         color: #0086be;
-        text-align: center;
-        display: inline;
+        display: block;
+        text-align:justify;
+        word-spacing:-2px;
     }
     .list-mobile {
         margin: 5%;
@@ -307,6 +313,9 @@ main {
     }
     .avatar-textpadding {
         padding-left: 0%;
+    }
+    .adjust {
+        font-size: 15px;
     }
     #paymentformsmobile {
         margin: 5%;
