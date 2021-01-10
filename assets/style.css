@@ -16,7 +16,7 @@ main {
     font-size: 20px;
     padding-bottom: 70px;
     text-align:justify;
-word-spacing:-2px;
+    word-spacing:-2px;
 }
 #bannermobile {
     display: none;
@@ -287,7 +287,10 @@ word-spacing:-2px;
         margin: 5%;
     }
     #resumo {
+        font-size: 15px;
         margin: 5%;
+        text-align:justify;
+        word-spacing:-2px;
     }
     #professores {
         padding-top: 20px;
@@ -301,6 +304,7 @@ word-spacing:-2px;
         display: none;
     }
     .colormobile {
+        font-size: 25px;
         text-align: center;
         margin: 2%;
     } 
