@@ -290,7 +290,9 @@ main {
         font-size: 15px;
         margin: 5%;
         text-align:justify;
-        word-spacing:-2px;
+        word-spacing:-1px;
+        text-justify: inter-word;
+
     }
     #professores {
         padding-top: 20px;
