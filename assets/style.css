@@ -30,7 +30,7 @@ main {
 }
 #professores::after {
     content: '';
-    width: 300px;
+    width: 950px;
     height: 3px;
     background-color: currentColor;
     display: block;
