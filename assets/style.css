@@ -3,6 +3,7 @@ html, body {
     padding:0;
     box-sizing: border-box;
     background: #FaFaFa;
+    overflow-x: hidden;
 }
 main {
     max-width: 950px;
