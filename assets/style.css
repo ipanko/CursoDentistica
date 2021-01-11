@@ -262,11 +262,12 @@ main {
         padding-top: 30px;
     }
     .avatar-text {
+        font-size: 30px;
         margin: 30px;
         justify-content: unset;
     }
     .avatar-description {
-        font-size: 18px;
+        font-size: 15px;
         margin: 30px;
         justify-content: unset;
         text-align:justify;
@@ -276,9 +277,15 @@ main {
         display: none;
     }
     .mobilebox {
+        font-size: 16px;
+        margin: 10%;
+        color: white;
         display: block;
-       margin: 0% auto;
-       padding-top: 50px;
+        text-align:justify;
+        word-spacing:-2px;
+        background-color:#0086be;
+        Border-radius: 60px 60px 60px 0;
+        padding: 20px;
     }
     .list-mobile {
         margin: 5%;
