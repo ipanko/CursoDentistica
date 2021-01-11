@@ -293,12 +293,14 @@ main {
         margin: 5%;
         color: white;
         display: block;
+        position: static;
         text-align:justify;
         word-spacing:-2px;
         background-color:#0086be;
         Border-radius: 60px 60px 60px 0;
         padding: 20px;
-        
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .list-mobile {
         margin: 5%;
@@ -345,13 +347,16 @@ main {
         padding-top: 10px;
         font-size: 200px;
         color: #babdc5;
+        margin-bottom: 0;
     }
     .aspasR {
         display: block;
+        padding-top: 0;
         padding-bottom: 10px;
         font-size: 200px;
         text-align: end;
         color: #babdc5;
+        margin-top: 0;
     }
     #paymentformsmobile {
         margin: 5%;
