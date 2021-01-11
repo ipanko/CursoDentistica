@@ -209,13 +209,13 @@ main {
 .aspasL {
     display: block;
     padding-top: 10px;
-    font-size: 80px;
+    font-size: 200px;
     color: #122039;
 }
 .aspasR {
     display: block;
     padding-bottom: 10px;
-    font-size: 80px;
+    font-size: 200px;
     text-align: end;
     color: #122039;
 }
