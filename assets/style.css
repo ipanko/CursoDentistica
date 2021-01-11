@@ -195,12 +195,7 @@ main {
     background: #079ddb;
     transition: 0.3s;
 }
-.mobilebox {
-    font-style: oblique;
-    font-size: 20px;
-    margin: 5%;
-    color: #0086be;
-    text-align: center;
+.frase {
     display: none;
 }
 .size {
