@@ -257,12 +257,12 @@ main {
     .avatar {
         display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 80%;
         height: auto;
         padding-top: 30px;
     }
     .avatar-text {
-        font-size: 30px;
+        font-size: 26px;
         margin: 30px;
         justify-content: unset;
     }
@@ -286,6 +286,7 @@ main {
         background-color:#0086be;
         Border-radius: 60px 60px 60px 0;
         padding: 20px;
+        
     }
     .list-mobile {
         margin: 5%;
