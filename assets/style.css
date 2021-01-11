@@ -298,6 +298,8 @@ main {
         word-spacing:-2px;
         background-color:#0086be;
         Border-radius: 60px 60px 60px 0;
+        padding-top: 0;
+        padding-bottom: 0;
         padding: 20px;
         margin-top: 0;
         margin-bottom: 0;
@@ -343,16 +345,16 @@ main {
         font-size: 15px;
     }
     .aspasL {
-        display: block;
+        display: inline;
         padding-top: 10px;
         font-size: 200px;
         color: #babdc5;
         margin-bottom: 0;
     }
     .aspasR {
-        display: block;
+        display: inline;
         padding-top: 0;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         font-size: 200px;
         text-align: end;
         color: #babdc5;
@@ -386,6 +388,41 @@ main {
     }
     #bannermobile {
         display: block;
+    }
+    .frase {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .frase blockquote{position: relative;background: transparent;}
+    .frase p{
+        margin: 5%;
+        font-size: 16px;
+        color: white;
+        background-color:#0086be;
+        Border-radius: 60px 60px 60px 0;
+        padding: 20px;
+        text-align:justify;
+        word-spacing:-2px;
+    }
+    .frase blockquote::before {
+        top: -20%;
+        left: -30%;
+        color:#babdc5;
+        content: '“';
+        font-size: 150px;
+        position: absolute;
+    }
+    .frase blockquote::after {
+        bottom: -40%;
+        right: -30%;
+        color:#babdc5;
+        content: '”';
+        font-size: 150px;
+        position: absolute;
     }
 }
 
