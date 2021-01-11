@@ -276,13 +276,9 @@ main {
         display: none;
     }
     .mobilebox {
-        font-style: oblique;
-        font-size: 20px;
-        margin: 10%;
-        color: #0086be;
         display: block;
-        text-align:justify;
-        word-spacing:-2px;
+       margin: 0% auto;
+       padding-top: 50px;
     }
     .list-mobile {
         margin: 5%;
