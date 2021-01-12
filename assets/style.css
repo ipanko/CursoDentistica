@@ -400,8 +400,7 @@ main {
         background-color:#0086be;
         Border-radius: 60px 60px 60px 0;
         padding: 20px;
-        text-align:justify;
-        word-spacing:-2px;
+        text-align:initial;
     }
     .frase blockquote::before {
         top: -20%;
